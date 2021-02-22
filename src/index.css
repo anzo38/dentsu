@@ -1,0 +1,419 @@
+/** common.css **/
+
+
+body{background:#fff url(https://contact.dentsu.jp/img?id=215&t=9lwd&v=e15a77c5);}
+select{background:transparent url(https://contact.dentsu.jp/img?id=216&t=9lwd&v=fdb4159b) no-repeat right center;}
+
+/** head_foot.css **/
+#contentHead #headSearch dt input[type="text"]{background:transparent url(https://contact.dentsu.jp/img?id=217&t=9lwd&v=55d61a94) no-repeat right top;}
+#contentHead #headSearch dt input[type="text"]:focus,
+#contentHead #headSearch dt input[type="text"].textOn{background:transparent url(https://contact.dentsu.jp/img?id=217&t=9lwd&v=55d61a94) no-repeat right bottom; outline:0;}
+#contentHead #headSearch dt input.seachBtn{background:transparent url(https://contact.dentsu.jp/img?id=217&t=9lwd&v=55d61a94) no-repeat -100px -100px;}
+#contentHead #globalMenu li a{background:transparent url(https://contact.dentsu.jp/img?id=218&t=9lwd&v=bea0dc07) no-repeat 0 0;}
+#contentHeadDropWrapper .contentHeadDrop .columnA dl dt a{background:transparent url(https://contact.dentsu.jp/img?id=219&t=9lwd&v=596d3f03) no-repeat right center; }
+#contentHeadDropWrapper .contentHeadDrop .columnB ul li a.nextColumn{background:transparent url(https://contact.dentsu.jp/img?id=219&t=9lwd&v=596d3f03) no-repeat 283px center;}
+
+/** layout.css **/
+#contentBodySub #sideSearch input[type="text"]{background:#fff url(https://contact.dentsu.jp/img?id=220&t=9lwd&v=9c288d71) no-repeat 0 0;}
+#contentBodySub #sideSearch input:focus,
+#contentBodySub #sideSearch input.textOn{background:#fff url(https://contact.dentsu.jp/img?id=220&t=9lwd&v=9c288d71) no-repeat 0 bottom; outline:0;}
+#contentBodySub #sideSearch input.seachBtn{background:transparent url(https://contact.dentsu.jp/img?id=217&t=9lwd&v=55d61a94) no-repeat -100px -100px;}
+#contentBodySub .Box_Dentsuho li a.Link_pdf strong span:after{padding-left:5px; content:url(https://contact.dentsu.jp/img?id=221&t=9lwd&v=856d6b15); vertical-align: middle;}
+#contentBodySub .Box_Dentsuho li a.Link_excel strong span:after{padding-left:5px; content:url(https://contact.dentsu.jp/img?id=222&t=9lwd&v=a65c7d62); vertical-align: middle;}
+#contentBodySub .Box_Dentsuho li a.Link_word strong span:after{padding-left:5px; content:url(https://contact.dentsu.jp/img?id=223&t=9lwd&v=dc3254d8); vertical-align: middle;}
+#contentBodySub .Box_Dentsuho li a.Link_blank strong span:after{padding-left:5px; content:url(https://contact.dentsu.jp/img?id=224&t=9lwd&v=79bf6484); vertical-align: middle;}
+#contentBodySub .Box_Dentsuho li a.Link_rss strong span:after{padding-left:5px; content:url(https://contact.dentsu.jp/img?id=225&t=9lwd&v=3400c0a1); vertical-align: middle;}
+#contentBodySub .Box_Dentsuho .bx-wrapper .bx-pager.bx-default-pager div a{background:transparent url(https://contact.dentsu.jp/img?id=226&t=9lwd&v=a580a5bc) no-repeat 0 0;}
+#contentBodySub .supportMenu li.parent a{background:transparent url(https://contact.dentsu.jp/img?id=227&t=9lwd&v=5325b1f7) no-repeat 195px center;}
+#contentBodySub .supportMenu li.parent a.open{background:#f2f2f2 url(https://contact.dentsu.jp/img?id=228&t=9lwd&v=dd5189b7) no-repeat 195px center;}
+.vision #contentAll h1 a:after,
+.vision #contentAll h2 a:after,
+.vision #contentAll h3 a:after,
+.vision #contentAll h4 a:after,
+.vision #contentAll .Link:after{content:url(https://contact.dentsu.jp/img?id=230&t=9lwd&v=dab89e65); padding-left:5px;}
+.vision #contentAll .Link_Anchor a:after{content:url(https://contact.dentsu.jp/img?id=231&t=9lwd&v=0777d832); padding-left:5px;}
+.vision #contentAll .Link_pdf:after{content:url(https://contact.dentsu.jp/img?id=232&t=9lwd&v=31c6ac4e);}
+.vision #contentAll .Link_excel:after{content:url(https://contact.dentsu.jp/img?id=233&t=9lwd&v=1dda0f7c);}
+.vision #contentAll .Link_word:after{content:url(https://contact.dentsu.jp/img?id=234&t=9lwd&v=22a56058);}
+.vision #contentAll .Link_blank:after{content:url(https://contact.dentsu.jp/img?id=235&t=9lwd&v=675844ea);}
+.vision #contentAll .Link_rss:after{content:url(https://contact.dentsu.jp/img?id=236&t=9lwd&v=0c7be58c);}
+#contentAll .vision .Link_pdf:after{content:url(https://contact.dentsu.jp/img?id=232&t=9lwd&v=31c6ac4e);}
+#contentAll .vision .Link_excel:after{content:url(https://contact.dentsu.jp/img?id=233&t=9lwd&v=1dda0f7c);}
+#contentAll .vision .Link_word:after{content:url(https://contact.dentsu.jp/img?id=234&t=9lwd&v=22a56058);}
+#contentAll .vision .Link_blank:after{content:url(https://contact.dentsu.jp/img?id=235&t=9lwd&v=675844ea);}
+#contentAll .vision .Link_rss:after{content:url(https://contact.dentsu.jp/img?id=236&t=9lwd&v=0c7be58c);}
+.vision #contentBody .bx-wrapper .bx-pager.bx-default-pager div a:hover,
+.vision #contentBody .bx-wrapper .bx-pager.bx-default-pager div a.active{background-image:url(https://contact.dentsu.jp/img?id=237&t=9lwd&v=7ee3f6f5);}
+.vision #contentBody .pdfExp{background-image:url(https://contact.dentsu.jp/img?id=232&t=9lwd&v=31c6ac4e);}
+.business #contentAll h1 a:after,
+.business #contentAll h2 a:after,
+.business #contentAll h3 a:after,
+.business #contentAll h4 a:after,
+.business #contentAll .Link:after{content:url(https://contact.dentsu.jp/img?id=238&t=9lwd&v=62c3b104); padding-left:5px;}
+.business #contentAll .Link_Anchor a:after{content:url(https://contact.dentsu.jp/img?id=239&t=9lwd&v=91903db2); padding-left:5px;}
+.business #contentAll .Link_pdf:after{content:url(https://contact.dentsu.jp/img?id=232&t=9lwd&v=31c6ac4e);}
+.business #contentAll .Link_excel:after{content:url(https://contact.dentsu.jp/img?id=233&t=9lwd&v=1dda0f7c);}
+.business #contentAll .Link_word:after{content:url(https://contact.dentsu.jp/img?id=234&t=9lwd&v=22a56058);}
+.business #contentAll .Link_blank:after{content:url(https://contact.dentsu.jp/img?id=240&t=9lwd&v=db089d05);}
+.business #contentAll .Link_rss:after{content:url(https://contact.dentsu.jp/img?id=236&t=9lwd&v=0c7be58c);}
+#contentAll .business .Link_pdf:after{content:url(https://contact.dentsu.jp/img?id=232&t=9lwd&v=31c6ac4e);}
+#contentAll .business .Link_excel:after{content:url(https://contact.dentsu.jp/img?id=233&t=9lwd&v=1dda0f7c);}
+#contentAll .business .Link_word:after{content:url(https://contact.dentsu.jp/img?id=234&t=9lwd&v=22a56058);}
+#contentAll .business .Link_blank:after{content:url(https://contact.dentsu.jp/img?id=240&t=9lwd&v=db089d05);}
+#contentAll .business .Link_rss:after{content:url(https://contact.dentsu.jp/img?id=236&t=9lwd&v=0c7be58c);}
+.business #contentBody .bx-wrapper .bx-pager.bx-default-pager div a:hover,
+.business #contentBody .bx-wrapper .bx-pager.bx-default-pager div a.active{background-image:url(https://contact.dentsu.jp/img?id=241&t=9lwd&v=0cd2db14);}
+.business #contentBody .pdfExp{background-image:url(https://contact.dentsu.jp/img?id=232&t=9lwd&v=31c6ac4e);}
+.global #contentAll h1 a:after,
+.global #contentAll h2 a:after,
+.global #contentAll h3 a:after,
+.global #contentAll h4 a:after,
+.global #contentAll .Link:after{content:url(https://contact.dentsu.jp/img?id=242&t=9lwd&v=50efe316); padding-left:5px;}
+.global #contentAll .Link_Anchor a:after{content:url(https://contact.dentsu.jp/img?id=243&t=9lwd&v=933c3e9a); padding-left:5px;}
+.global #contentAll .Link_pdf:after{content:url(https://contact.dentsu.jp/img?id=232&t=9lwd&v=31c6ac4e);}
+.global #contentAll .Link_excel:after{content:url(https://contact.dentsu.jp/img?id=233&t=9lwd&v=1dda0f7c);}
+.global #contentAll .Link_word:after{content:url(https://contact.dentsu.jp/img?id=234&t=9lwd&v=22a56058);}
+.global #contentAll .Link_blank:after{content:url(https://contact.dentsu.jp/img?id=244&t=9lwd&v=fa243e2e);}
+.global #contentAll .Link_rss:after{content:url(https://contact.dentsu.jp/img?id=236&t=9lwd&v=0c7be58c);}
+#contentAll .global .Link_pdf:after{content:url(https://contact.dentsu.jp/img?id=232&t=9lwd&v=31c6ac4e);}
+#contentAll .global .Link_excel:after{content:url(https://contact.dentsu.jp/img?id=233&t=9lwd&v=1dda0f7c);}
+#contentAll .global .Link_word:after{content:url(https://contact.dentsu.jp/img?id=234&t=9lwd&v=22a56058);}
+#contentAll .global .Link_blank:after{content:url(https://contact.dentsu.jp/img?id=244&t=9lwd&v=fa243e2e);}
+#contentAll .global .Link_rss:after{content:url(https://contact.dentsu.jp/img?id=236&t=9lwd&v=0c7be58c);}
+.global #contentBody .bx-wrapper .bx-pager.bx-default-pager div a:hover,
+.global #contentBody .bx-wrapper .bx-pager.bx-default-pager div a.active{background-image:url(https://contact.dentsu.jp/img?id=245&t=9lwd&v=8adf3094);}
+.global #contentBody .pdfExp{background-image:url(https://contact.dentsu.jp/img?id=232&t=9lwd&v=31c6ac4e);}
+.news #contentAll h1 a:after,
+.news #contentAll h2 a:after,
+.news #contentAll h3 a:after,
+.news #contentAll h4 a:after,
+.news #contentAll .Link:after{content:url(https://contact.dentsu.jp/img?id=246&t=9lwd&v=9eefa5e4); padding-left:5px;}
+.news #contentAll .Link_Anchor a:after{content:url(https://contact.dentsu.jp/img?id=247&t=9lwd&v=db2631c5); padding-left:5px;}
+.news #contentAll .Link_pdf:after{content:url(https://contact.dentsu.jp/img?id=232&t=9lwd&v=31c6ac4e);}
+.news #contentAll .Link_excel:after{content:url(https://contact.dentsu.jp/img?id=233&t=9lwd&v=1dda0f7c);}
+.news #contentAll .Link_word:after{content:url(https://contact.dentsu.jp/img?id=234&t=9lwd&v=22a56058);}
+.news #contentAll .Link_blank:after{content:url(https://contact.dentsu.jp/img?id=248&t=9lwd&v=c9097e62);}
+.news #contentAll .Link_rss:after{content:url(https://contact.dentsu.jp/img?id=236&t=9lwd&v=0c7be58c);}
+#contentAll .news .Link_pdf:after{content:url(https://contact.dentsu.jp/img?id=232&t=9lwd&v=31c6ac4e);}
+#contentAll .news .Link_excel:after{content:url(https://contact.dentsu.jp/img?id=233&t=9lwd&v=1dda0f7c);}
+#contentAll .news .Link_word:after{content:url(https://contact.dentsu.jp/img?id=234&t=9lwd&v=22a56058);}
+#contentAll .news .Link_blank:after{content:url(https://contact.dentsu.jp/img?id=248&t=9lwd&v=c9097e62);}
+#contentAll .news .Link_rss:after{content:url(https://contact.dentsu.jp/img?id=236&t=9lwd&v=0c7be58c);}
+.news #contentBody .bx-wrapper .bx-pager.bx-default-pager div a:hover,
+.news #contentBody .bx-wrapper .bx-pager.bx-default-pager div a.active{background-image:url(https://contact.dentsu.jp/img?id=249&t=9lwd&v=b083ef23);}
+.news #contentBody .pdfExp{background-image:url(https://contact.dentsu.jp/img?id=232&t=9lwd&v=31c6ac4e);}
+.ir #contentAll h1 a:after,
+.ir #contentAll h2 a:after,
+.ir #contentAll h3 a:after,
+.ir #contentAll h4 a:after,
+.ir #contentAll .Link:after{content:url(https://contact.dentsu.jp/img?id=251&t=9lwd&v=c4942683); padding-left:5px;}
+.ir #contentAll .Link_Anchor a:after{content:url(https://contact.dentsu.jp/img?id=250&t=9lwd&v=e1c3f796); padding-left:5px;}
+.ir #contentAll .Link_pdf:after{content:url(https://contact.dentsu.jp/img?id=232&t=9lwd&v=31c6ac4e);}
+.ir #contentAll .Link_excel:after{content:url(https://contact.dentsu.jp/img?id=233&t=9lwd&v=1dda0f7c);}
+.ir #contentAll .Link_word:after{content:url(https://contact.dentsu.jp/img?id=234&t=9lwd&v=22a56058);}
+.ir #contentAll .Link_blank:after{content:url(https://contact.dentsu.jp/img?id=252&t=9lwd&v=0a1bbd33);}
+.ir #contentAll .Link_rss:after{content:url(https://contact.dentsu.jp/img?id=236&t=9lwd&v=0c7be58c);}
+#contentAll .ir .Link_pdf:after{content:url(https://contact.dentsu.jp/img?id=232&t=9lwd&v=31c6ac4e);}
+#contentAll .ir .Link_excel:after{content:url(https://contact.dentsu.jp/img?id=233&t=9lwd&v=1dda0f7c);}
+#contentAll .ir .Link_word:after{content:url(https://contact.dentsu.jp/img?id=234&t=9lwd&v=22a56058);}
+#contentAll .ir .Link_blank:after{content:url(https://contact.dentsu.jp/img?id=252&t=9lwd&v=0a1bbd33);}
+#contentAll .ir .Link_rss:after{content:url(https://contact.dentsu.jp/img?id=236&t=9lwd&v=0c7be58c);}
+.ir #contentBody .bx-wrapper .bx-pager.bx-default-pager div a:hover,
+.ir #contentBody .bx-wrapper .bx-pager.bx-default-pager div a.active{background-image:url(https://contact.dentsu.jp/img?id=253&t=9lwd&v=ac49a264);}
+.ir #contentBody .pdfExp{background-image:url(https://contact.dentsu.jp/img?id=232&t=9lwd&v=31c6ac4e);}
+.csr #contentAll h1 a:after,
+.csr #contentAll h2 a:after,
+.csr #contentAll h3 a:after,
+.csr #contentAll h4 a:after,
+.csr #contentAll .Link:after{content:url(https://contact.dentsu.jp/img?id=229&t=9lwd&v=d0b878c8); padding-left:5px;}
+.csr #contentAll .Link_Anchor a:after{content:url(https://contact.dentsu.jp/img?id=254&t=9lwd&v=122e4a99); padding-left:5px;}
+.csr #contentAll .Link_pdf:after{content:url(https://contact.dentsu.jp/img?id=232&t=9lwd&v=31c6ac4e);}
+.csr #contentAll .Link_excel:after{content:url(https://contact.dentsu.jp/img?id=233&t=9lwd&v=1dda0f7c);}
+.csr #contentAll .Link_word:after{content:url(https://contact.dentsu.jp/img?id=234&t=9lwd&v=22a56058);}
+.csr #contentAll .Link_blank:after{content:url(https://contact.dentsu.jp/img?id=255&t=9lwd&v=5048d9b3);}
+.csr #contentAll .Link_rss:after{content:url(https://contact.dentsu.jp/img?id=236&t=9lwd&v=0c7be58c);}
+#contentAll .csr .Link_pdf:after{content:url(https://contact.dentsu.jp/img?id=232&t=9lwd&v=31c6ac4e);}
+#contentAll .csr .Link_excel:after{content:url(https://contact.dentsu.jp/img?id=233&t=9lwd&v=1dda0f7c);}
+#contentAll .csr .Link_word:after{content:url(https://contact.dentsu.jp/img?id=234&t=9lwd&v=22a56058);}
+#contentAll .csr .Link_blank:after{content:url(https://contact.dentsu.jp/img?id=255&t=9lwd&v=5048d9b3);}
+#contentAll .csr .Link_rss:after{content:url(https://contact.dentsu.jp/img?id=236&t=9lwd&v=0c7be58c);}
+.csr #contentBody .bx-wrapper .bx-pager.bx-default-pager div a:hover,
+.csr #contentBody .bx-wrapper .bx-pager.bx-default-pager div a.active{background-image:url(https://contact.dentsu.jp/img?id=256&t=9lwd&v=22d04658);}
+.csr #contentBody .pdfExp{background-image:url(https://contact.dentsu.jp/img?id=232&t=9lwd&v=31c6ac4e);}
+.recruit #contentAll h1 a:after,
+.recruit #contentAll h2 a:after,
+.recruit #contentAll h3 a:after,
+.recruit #contentAll h4 a:after,
+.recruit #contentAll .Link:after{content:url(https://contact.dentsu.jp/img?id=257&t=9lwd&v=f049dd98); padding-left:5px;}
+.recruit #contentAll .Link_Anchor a:after{content:url(https://contact.dentsu.jp/img?id=258&t=9lwd&v=249b3808); padding-left:5px;}
+.recruit #contentAll .Link_pdf:after{content:url(https://contact.dentsu.jp/img?id=232&t=9lwd&v=31c6ac4e);}
+.recruit #contentAll .Link_excel:after{content:url(https://contact.dentsu.jp/img?id=233&t=9lwd&v=1dda0f7c);}
+.recruit #contentAll .Link_word:after{content:url(https://contact.dentsu.jp/img?id=234&t=9lwd&v=22a56058);}
+.recruit #contentAll .Link_blank:after{content:url(https://contact.dentsu.jp/img?id=259&t=9lwd&v=44f656b2);}
+.recruit #contentAll .Link_rss:after{content:url(https://contact.dentsu.jp/img?id=236&t=9lwd&v=0c7be58c);}
+#contentAll .recruit .Link_pdf:after{content:url(https://contact.dentsu.jp/img?id=232&t=9lwd&v=31c6ac4e);}
+#contentAll .recruit .Link_excel:after{content:url(https://contact.dentsu.jp/img?id=233&t=9lwd&v=1dda0f7c);}
+#contentAll .recruit .Link_word:after{content:url(https://contact.dentsu.jp/img?id=234&t=9lwd&v=22a56058);}
+#contentAll .recruit .Link_blank:after{content:url(https://contact.dentsu.jp/img?id=259&t=9lwd&v=44f656b2);}
+#contentAll .recruit .Link_rss:after{content:url(https://contact.dentsu.jp/img?id=236&t=9lwd&v=0c7be58c);}
+.recruit #contentBody .relationArea a.Link_pdf em:after{content:url(https://contact.dentsu.jp/img?id=221&t=9lwd&v=856d6b15);}
+.recruit #contentBody .relationArea a.Link_excel em:after{content:url(https://contact.dentsu.jp/img?id=222&t=9lwd&v=a65c7d62);}
+.recruit #contentBody .relationArea a.Link_word em:after{content:url(https://contact.dentsu.jp/img?id=223&t=9lwd&v=dc3254d8);}
+.recruit #contentBody .relationArea a.Link_blank em:after{content:url(https://contact.dentsu.jp/img?id=224&t=9lwd&v=79bf6484);}
+.recruit #contentBody .relationArea a.Link_rss em:after{content:url(https://contact.dentsu.jp/img?id=225&t=9lwd&v=3400c0a1);}
+#contentHeadDropWrapper .recruit .relationArea a.Link_pdf em:after{content:url(https://contact.dentsu.jp/img?id=232&t=9lwd&v=31c6ac4e); padding-left:5px;}
+#contentHeadDropWrapper .recruit .relationArea a.Link_excel em:after{content:url(https://contact.dentsu.jp/img?id=233&t=9lwd&v=1dda0f7c); padding-left:5px;}
+#contentHeadDropWrapper .recruit .relationArea a.Link_word em:after{content:url(https://contact.dentsu.jp/img?id=234&t=9lwd&v=22a56058); padding-left:5px;}
+#contentHeadDropWrapper .recruit .relationArea a.Link_blank em:after{content:url(https://contact.dentsu.jp/img?id=260&t=9lwd&v=c7e54b27); padding-left:5px;}
+#contentHeadDropWrapper .recruit .relationArea a.Link_rss em:after{content:url(https://contact.dentsu.jp/img?id=236&t=9lwd&v=0c7be58c); padding-left:5px;}
+.recruit #contentBody .bx-wrapper .bx-pager.bx-default-pager div a:hover,
+.recruit #contentBody .bx-wrapper .bx-pager.bx-default-pager div a.active{background-image:url(https://contact.dentsu.jp/img?id=261&t=9lwd&v=e3d277f6);}
+.recruit #contentBody .pdfExp{background-image:url(https://contact.dentsu.jp/img?id=232&t=9lwd&v=31c6ac4e);}
+.other #contentAll h1 a:after,
+.other #contentAll h2 a:after,
+.other #contentAll h3 a:after,
+.other #contentAll h4 a:after,
+.other #contentAll .Link:after{content:url(https://contact.dentsu.jp/img?id=262&t=9lwd&v=ca8db392); padding-left:5px;}
+.other #contentAll .Link_Anchor a:after{content:url(https://contact.dentsu.jp/img?id=263&t=9lwd&v=368b2552); padding-left:5px;}
+.other #contentAll .Link_pdf:after{content:url(https://contact.dentsu.jp/img?id=232&t=9lwd&v=31c6ac4e);}
+.other #contentAll .Link_excel:after{content:url(https://contact.dentsu.jp/img?id=233&t=9lwd&v=1dda0f7c);}
+.other #contentAll .Link_word:after{content:url(https://contact.dentsu.jp/img?id=234&t=9lwd&v=22a56058);}
+.other #contentAll .Link_blank:after{content:url(https://contact.dentsu.jp/img?id=260&t=9lwd&v=c7e54b27);}
+.other #contentAll .Link_rss:after{content:url(https://contact.dentsu.jp/img?id=236&t=9lwd&v=0c7be58c);}
+#contentAll .other .Link_pdf:after{content:url(https://contact.dentsu.jp/img?id=232&t=9lwd&v=31c6ac4e);}
+#contentAll .other .Link_excel:after{content:url(https://contact.dentsu.jp/img?id=233&t=9lwd&v=1dda0f7c);}
+#contentAll .other .Link_word:after{content:url(https://contact.dentsu.jp/img?id=234&t=9lwd&v=22a56058);}
+#contentAll .other .Link_blank:after{content:url(https://contact.dentsu.jp/img?id=260&t=9lwd&v=c7e54b27);}
+#contentAll .other .Link_rss:after{content:url(https://contact.dentsu.jp/img?id=236&t=9lwd&v=0c7be58c);}
+.other #contentBody .pdfExp{background-image:url(https://contact.dentsu.jp/img?id=232&t=9lwd&v=31c6ac4e);}
+
+
+#contentBodySub .Box_Dentsuho{background:transparent url(https://contact.dentsu.jp/img?id=294&t=9lwd&v=c473cd89) no-repeat 0 0;}
+#contentBodySub .Box_Dentsuho .wrapper .thumbList li{background:transparent url(https://contact.dentsu.jp/img?id=295&t=9lwd&v=a4b640b7) no-repeat 0 119px;}
+#contentBodySub .supportMenu li.noChild a{background:transparent url(https://contact.dentsu.jp/img?id=296&t=9lwd&v=bdf6909a) no-repeat 200px center;}
+.vision #contentBody .relationArea a.Link_pdf em:after{content:url(https://contact.dentsu.jp/img?id=297&t=9lwd&v=45da0990);}
+.vision #contentBody .relationArea a.Link_excel em:after{content:url(https://contact.dentsu.jp/img?id=298&t=9lwd&v=f299af6c);}
+.vision #contentBody .relationArea a.Link_word em:after{content:url(https://contact.dentsu.jp/img?id=299&t=9lwd&v=9c77aba9);}
+.vision #contentBody .relationArea a.Link_blank em:after{content:url(https://contact.dentsu.jp/img?id=300&t=9lwd&v=247d7635);}
+.vision #contentBody .relationArea a.Link_rss em:after{content:url(https://contact.dentsu.jp/img?id=301&t=9lwd&v=04a4b902);}
+.business #contentBody .relationArea a.Link_pdf em:after{content:url(https://contact.dentsu.jp/img?id=297&t=9lwd&v=45da0990);}
+.business #contentBody .relationArea a.Link_excel em:after{content:url(https://contact.dentsu.jp/img?id=298&t=9lwd&v=f299af6c);}
+.business #contentBody .relationArea a.Link_word em:after{content:url(https://contact.dentsu.jp/img?id=299&t=9lwd&v=9c77aba9);}
+.business #contentBody .relationArea a.Link_blank em:after{content:url(https://contact.dentsu.jp/img?id=300&t=9lwd&v=247d7635);}
+.business #contentBody .relationArea a.Link_rss em:after{content:url(https://contact.dentsu.jp/img?id=301&t=9lwd&v=04a4b902);}
+.global #contentBody .relationArea a.Link_pdf em:after{content:url(https://contact.dentsu.jp/img?id=297&t=9lwd&v=45da0990);}
+.global #contentBody .relationArea a.Link_excel em:after{content:url(https://contact.dentsu.jp/img?id=298&t=9lwd&v=f299af6c);}
+.global #contentBody .relationArea a.Link_word em:after{content:url(https://contact.dentsu.jp/img?id=299&t=9lwd&v=9c77aba9);}
+.global #contentBody .relationArea a.Link_blank em:after{content:url(https://contact.dentsu.jp/img?id=300&t=9lwd&v=247d7635);}
+.global #contentBody .relationArea a.Link_rss em:after{content:url(https://contact.dentsu.jp/img?id=301&t=9lwd&v=04a4b902);}
+.news #contentBody .relationArea a.Link_pdf em:after{content:url(https://contact.dentsu.jp/img?id=297&t=9lwd&v=45da0990);}
+.news #contentBody .relationArea a.Link_excel em:after{content:url(https://contact.dentsu.jp/img?id=298&t=9lwd&v=f299af6c);}
+.news #contentBody .relationArea a.Link_word em:after{content:url(https://contact.dentsu.jp/img?id=299&t=9lwd&v=9c77aba9);}
+.news #contentBody .relationArea a.Link_blank em:after{content:url(https://contact.dentsu.jp/img?id=300&t=9lwd&v=247d7635);}
+.news #contentBody .relationArea a.Link_rss em:after{content:url(https://contact.dentsu.jp/img?id=301&t=9lwd&v=04a4b902);}
+.ir #contentBody .relationArea a.Link_pdf em:after{content:url(https://contact.dentsu.jp/img?id=297&t=9lwd&v=45da0990);}
+.ir #contentBody .relationArea a.Link_excel em:after{content:url(https://contact.dentsu.jp/img?id=298&t=9lwd&v=f299af6c);}
+.ir #contentBody .relationArea a.Link_word em:after{content:url(https://contact.dentsu.jp/img?id=299&t=9lwd&v=9c77aba9);}
+.ir #contentBody .relationArea a.Link_blank em:after{content:url(https://contact.dentsu.jp/img?id=300&t=9lwd&v=247d7635);}
+.ir #contentBody .relationArea a.Link_rss em:after{content:url(https://contact.dentsu.jp/img?id=301&t=9lwd&v=04a4b902);}
+.csr #contentBody .relationArea a.Link_pdf em:after{content:url(https://contact.dentsu.jp/img?id=297&t=9lwd&v=45da0990);}
+.csr #contentBody .relationArea a.Link_excel em:after{content:url(https://contact.dentsu.jp/img?id=298&t=9lwd&v=f299af6c);}
+.csr #contentBody .relationArea a.Link_word em:after{content:url(https://contact.dentsu.jp/img?id=299&t=9lwd&v=9c77aba9);}
+.csr #contentBody .relationArea a.Link_blank em:after{content:url(https://contact.dentsu.jp/img?id=300&t=9lwd&v=247d7635);}
+.csr #contentBody .relationArea a.Link_rss em:after{content:url(https://contact.dentsu.jp/img?id=301&t=9lwd&v=04a4b902);}
+.other #contentBody .relationArea a.Link_pdf em:after{content:url(https://contact.dentsu.jp/img?id=297&t=9lwd&v=45da0990);}
+.other #contentBody .relationArea a.Link_excel em:after{content:url(https://contact.dentsu.jp/img?id=298&t=9lwd&v=f299af6c);}
+.other #contentBody .relationArea a.Link_word em:after{content:url(https://contact.dentsu.jp/img?id=299&t=9lwd&v=9c77aba9);}
+.other #contentBody .relationArea a.Link_blank em:after{content:url(https://contact.dentsu.jp/img?id=300&t=9lwd&v=247d7635);}
+.other #contentBody .relationArea a.Link_rss em:after{content:url(https://contact.dentsu.jp/img?id=301&t=9lwd&v=04a4b902);}
+/*vision*/
+#contentBody .visionColor h1 a:after,
+#contentBody .visionColor h2 a:after,
+#contentBody .visionColor h3 a:after,
+#contentBody .visionColor h4 a:after,
+#contentBody .visionColor .Link:after{content:url(https://contact.dentsu.jp/img?id=302&t=9lwd&v=34b54748); padding-left:5px;}
+#contentBody .visionColor .Link_pdf:after{content:url(https://contact.dentsu.jp/img?id=303&t=9lwd&v=2cc40663);}
+#contentBody .visionColor .Link_excel:after{content:url(https://contact.dentsu.jp/img?id=304&t=9lwd&v=0d59423e);}
+#contentBody .visionColor .Link_word:after{content:url(https://contact.dentsu.jp/img?id=305&t=9lwd&v=7946face);}
+#contentBody .visionColor .Link_blank:after{content:url(https://contact.dentsu.jp/img?id=306&t=9lwd&v=a7c20e53);}
+#contentBody .visionColor .Link_rss:after{content:url(https://contact.dentsu.jp/img?id=307&t=9lwd&v=f9bc92f9);}
+/*business*/
+#contentBody .businessColor h1 a:after,
+#contentBody .businessColor h2 a:after,
+#contentBody .businessColor h3 a:after,
+#contentBody .businessColor h4 a:after,
+#contentBody .businessColor .Link:after{content:url(https://contact.dentsu.jp/img?id=311&t=9lwd&v=dc138fe4); padding-left:5px;}
+#contentBody .businessColor .Link_pdf:after{content:url(https://contact.dentsu.jp/img?id=303&t=9lwd&v=2cc40663);}
+#contentBody .businessColor .Link_excel:after{content:url(https://contact.dentsu.jp/img?id=304&t=9lwd&v=0d59423e);}
+#contentBody .businessColor .Link_word:after{content:url(https://contact.dentsu.jp/img?id=305&t=9lwd&v=7946face);}
+#contentBody .businessColor .Link_blank:after{content:url(https://contact.dentsu.jp/img?id=308&t=9lwd&v=b7020b90);}
+#contentBody .businessColor .Link_rss:after{content:url(https://contact.dentsu.jp/img?id=307&t=9lwd&v=f9bc92f9);}
+/*global*/
+#contentBody .globalColor h1 a:after,
+#contentBody .globalColor h2 a:after,
+#contentBody .globalColor h3 a:after,
+#contentBody .globalColor h4 a:after,
+#contentBody .globalColor .Link:after{content:url(https://contact.dentsu.jp/img?id=309&t=9lwd&v=d34ca1ce); padding-left:5px;}
+#contentBody .globalColor .Link_pdf:after{content:url(https://contact.dentsu.jp/img?id=303&t=9lwd&v=2cc40663);}
+#contentBody .globalColor .Link_excel:after{content:url(https://contact.dentsu.jp/img?id=304&t=9lwd&v=0d59423e);}
+#contentBody .globalColor .Link_word:after{content:url(https://contact.dentsu.jp/img?id=305&t=9lwd&v=7946face);}
+#contentBody .globalColor .Link_blank:after{content:url(https://contact.dentsu.jp/img?id=312&t=9lwd&v=90dd50d2);}
+#contentBody .globalColor .Link_rss:after{content:url(https://contact.dentsu.jp/img?id=307&t=9lwd&v=f9bc92f9);}
+/*news*/
+#contentBody .newsColor h1 a:after,
+#contentBody .newsColor h2 a:after,
+#contentBody .newsColor h3 a:after,
+#contentBody .newsColor h4 a:after,
+#contentBody .newsColor .Link:after{content:url(https://contact.dentsu.jp/img?id=310&t=9lwd&v=e664bec6); padding-left:5px;}
+#contentBody .newsColor .Link_pdf:after{content:url(https://contact.dentsu.jp/img?id=303&t=9lwd&v=2cc40663);}
+#contentBody .newsColor .Link_excel:after{content:url(https://contact.dentsu.jp/img?id=304&t=9lwd&v=0d59423e);}
+#contentBody .newsColor .Link_word:after{content:url(https://contact.dentsu.jp/img?id=305&t=9lwd&v=7946face);}
+#contentBody .newsColor .Link_blank:after{content:url(https://contact.dentsu.jp/img?id=314&t=9lwd&v=91982fcf);}
+#contentBody .newsColor .Link_rss:after{content:url(https://contact.dentsu.jp/img?id=307&t=9lwd&v=f9bc92f9);}
+/*ir*/
+#contentBody .irColor h1 a:after,
+#contentBody .irColor h2 a:after,
+#contentBody .irColor h3 a:after,
+#contentBody .irColor h4 a:after,
+#contentBody .irColor .Link:after{content:url(https://contact.dentsu.jp/img?id=296&t=9lwd&v=bdf6909a); padding-left:5px;}
+#contentBody .irColor .Link_pdf:after{content:url(https://contact.dentsu.jp/img?id=303&t=9lwd&v=2cc40663);}
+#contentBody .irColor .Link_excel:after{content:url(https://contact.dentsu.jp/img?id=304&t=9lwd&v=0d59423e);}
+#contentBody .irColor .Link_word:after{content:url(https://contact.dentsu.jp/img?id=305&t=9lwd&v=7946face);}
+#contentBody .irColor .Link_blank:after{content:url(https://contact.dentsu.jp/img?id=313&t=9lwd&v=459ccfd4);}
+#contentBody .irColor .Link_rss:after{content:url(https://contact.dentsu.jp/img?id=307&t=9lwd&v=f9bc92f9);}
+/*csr*/
+#contentBody .csrColor h1 a:after,
+#contentBody .csrColor h2 a:after,
+#contentBody .csrColor h3 a:after,
+#contentBody .csrColor h4 a:after,
+#contentBody .csrColor .Link:after{content:url(https://contact.dentsu.jp/img?id=315&t=9lwd&v=7aed7d31); padding-left:5px;}
+#contentBody .csrColor .Link_pdf:after{content:url(https://contact.dentsu.jp/img?id=303&t=9lwd&v=2cc40663);}
+#contentBody .csrColor .Link_excel:after{content:url(https://contact.dentsu.jp/img?id=304&t=9lwd&v=0d59423e);}
+#contentBody .csrColor .Link_word:after{content:url(https://contact.dentsu.jp/img?id=305&t=9lwd&v=7946face);}
+#contentBody .csrColor .Link_blank:after{content:url(https://contact.dentsu.jp/img?id=316&t=9lwd&v=ae51e758);}
+#contentBody .csrColor .Link_rss:after{content:url(https://contact.dentsu.jp/img?id=307&t=9lwd&v=f9bc92f9);}
+/*recruit*/
+#contentBody .recruitColor h1 a:after,
+#contentBody .recruitColor h2 a:after,
+#contentBody .recruitColor h3 a:after,
+#contentBody .recruitColor h4 a:after,
+#contentBody .recruitColor .Link:after{content:url(https://contact.dentsu.jp/img?id=317&t=9lwd&v=8c26e2ef); padding-left:5px;}
+#contentBody .recruitColor .Link_pdf:after{content:url(https://contact.dentsu.jp/img?id=303&t=9lwd&v=2cc40663);}
+#contentBody .recruitColor .Link_excel:after{content:url(https://contact.dentsu.jp/img?id=304&t=9lwd&v=0d59423e);}
+#contentBody .recruitColor .Link_word:after{content:url(https://contact.dentsu.jp/img?id=305&t=9lwd&v=7946face);}
+#contentBody .recruitColor .Link_blank:after{content:url(https://contact.dentsu.jp/img?id=318&t=9lwd&v=6dae9f1d);}
+#contentBody .recruitColor .Link_rss:after{content:url(https://contact.dentsu.jp/img?id=307&t=9lwd&v=f9bc92f9);}
+/*other*/
+#contentBody .otherColor h1 a:after,
+#contentBody .otherColor h2 a:after,
+#contentBody .otherColor h3 a:after,
+#contentBody .otherColor h4 a:after,
+#contentBody .otherColor .Link:after{content:url(https://contact.dentsu.jp/img?id=319&t=9lwd&v=a9964cb6); padding-left:5px;}
+#contentBody .otherColor .Link_pdf:after{content:url(https://contact.dentsu.jp/img?id=303&t=9lwd&v=2cc40663);}
+#contentBody .otherColor .Link_excel:after{content:url(https://contact.dentsu.jp/img?id=304&t=9lwd&v=0d59423e);}
+#contentBody .otherColor .Link_word:after{content:url(https://contact.dentsu.jp/img?id=305&t=9lwd&v=7946face);}
+#contentBody .otherColor .Link_blank:after{content:url(https://contact.dentsu.jp/img?id=320&t=9lwd&v=9500a8d1);}
+
+
+#contentBody .otherColor .Link_rss:after{content:url(https://contact.dentsu.jp/img?id=307&t=9lwd&v=f9bc92f9);}
+
+
+/** parts.css **/
+.vision #contentAll h1.img2{background:#000 url(https://contact.dentsu.jp/img?id=264&t=9lwd&v=fea07d7a) no-repeat center top;}
+.business #contentAll h1.img2{background:#000 url(https://contact.dentsu.jp/img?id=265&t=9lwd&v=675d3fa0) no-repeat center top;}
+.global #contentAll h1.img2{background:#000 url(https://contact.dentsu.jp/img?id=266&t=9lwd&v=2977d999) no-repeat center top;}
+#contentBody p.print{background:transparent url(https://contact.dentsu.jp/img?id=267&t=9lwd&v=51f26a45) no-repeat left center;}
+#contentBody p.pdfExp{background:transparent url(https://contact.dentsu.jp/img?id=232&t=9lwd&v=31c6ac4e) no-repeat 0 0.3em;}
+#contentBody .Link_pdf_L,
+#contentBody .Link_rss_L{background:transparent url(https://contact.dentsu.jp/img?id=268&t=9lwd&v=5bbf02dc) no-repeat 5px center;}
+#contentBody .Link_rss_L{background:transparent url(https://contact.dentsu.jp/img?id=269&t=9lwd&v=45d82ee2) no-repeat 5px center;}
+#contentBody .Button{background:#808080 url(https://contact.dentsu.jp/img?id=270&t=9lwd&v=bb9cb66e) no-repeat right bottom;}
+#contentBody .Button_action,
+#contentBody .Button_action_S{background-image:url(https://contact.dentsu.jp/img?id=270&t=9lwd&v=bb9cb66e);}
+#contentBody .Button_action.Link_pdf:after,
+#contentBody .Button_action_S.Link_pdf:after{padding-left:5px; vertical-align:-5%; content:url(https://contact.dentsu.jp/img?id=221&t=9lwd&v=856d6b15);}
+#contentBody .Button_action.Link_excel:after,
+#contentBody .Button_action_S.Link_excel:after{padding-left:5px; vertical-align:-5%; content:url(https://contact.dentsu.jp/img?id=222&t=9lwd&v=a65c7d62);}
+#contentBody .Button_action.Link_word:after,
+#contentBody .Button_action_S.Link_word:after{padding-left:5px; vertical-align:-5%; content:url(https://contact.dentsu.jp/img?id=223&t=9lwd&v=dc3254d8);}
+#contentBody .Button_action.Link_blank:after,
+#contentBody .Button_action_S.Link_blank:after{padding-left:5px; vertical-align:5%; content:url(https://contact.dentsu.jp/img?id=224&t=9lwd&v=79bf6484);}
+#contentBody .Button_action.Link_rss:after,
+#contentBody .Button_action_S.Link_rss:after{padding-left:5px; vertical-align:-5%; content:url(https://contact.dentsu.jp/img?id=225&t=9lwd&v=3400c0a1);}
+#contentBody .Link_Related_categorytop li a:after{content:url(https://contact.dentsu.jp/img?id=270&t=9lwd&v=bb9cb66e);}
+#contentBody .Link_Related_categorytop li.bgWhite a:after{content:url(https://contact.dentsu.jp/img?id=271&t=9lwd&v=7b6c2fa1);}
+#contentBody .Link_Related_categorytop li a.Link_pdf:after{right:5px; bottom:5px; content:url(https://contact.dentsu.jp/img?id=221&t=9lwd&v=856d6b15);}
+#contentBody .Link_Related_categorytop li a.Link_excel:after{right:5px; bottom:5px; content:url(https://contact.dentsu.jp/img?id=222&t=9lwd&v=a65c7d62);}
+#contentBody .Link_Related_categorytop li a.Link_word:after{right:5px; bottom:5px; content:url(https://contact.dentsu.jp/img?id=223&t=9lwd&v=dc3254d8);}
+#contentBody .Link_Related_categorytop li a.Link_blank:after{right:5px; bottom:5px; content:url(https://contact.dentsu.jp/img?id=224&t=9lwd&v=79bf6484);}
+#contentBody .Link_Related_categorytop li a.Link_rss:after{right:5px; bottom:5px; content:url(https://contact.dentsu.jp/img?id=225&t=9lwd&v=3400c0a1);}
+#contentBody .Link_Related_categorytop li.bgWhite a.Link_pdf:after{right:10px; bottom:10px; content:url(https://contact.dentsu.jp/img?id=272&t=9lwd&v=6357feee);}
+#contentBody .Link_Related_categorytop li.bgWhite a.Link_excel:after{right:10px; bottom:10px; content:url(https://contact.dentsu.jp/img?id=273&t=9lwd&v=eea8673c);}
+#contentBody .Link_Related_categorytop li.bgWhite a.Link_word:after{right:10px; bottom:10px; content:url(https://contact.dentsu.jp/img?id=274&t=9lwd&v=b223d461);}
+#contentBody .Link_Related_categorytop li.bgWhite a.Link_blank:after{right:10px; bottom:10px; content:url(ihttps://contact.dentsu.jp/img?id=275&t=9lwd&v=6c15853e);}
+#contentBody .Link_Related_categorytop li.bgWhite a.Link_rss:after{right:10px; bottom:10px; content:url(https://contact.dentsu.jp/img?id=276&t=9lwd&v=9b8721c8);}
+#contentBody .Link_Dentsuho dd ul li{background:transparent url(https://contact.dentsu.jp/img?id=277&t=9lwd&v=a88eb5f9) repeat-y;}
+#contentBody .Link_Dentsuho li a.Link_pdf em:after{padding-left:5px; content:url(https://contact.dentsu.jp/img?id=221&t=9lwd&v=856d6b15); vertical-align:-14%;}
+#contentBody .Link_Dentsuho li a.Link_excel em:after{padding-left:5px; content:url(https://contact.dentsu.jp/img?id=222&t=9lwd&v=a65c7d62); vertical-align:-14%;}
+#contentBody .Link_Dentsuho li a.Link_word em:after{padding-left:5px; content:url(https://contact.dentsu.jp/img?id=223&t=9lwd&v=dc3254d8); vertical-align:-14%;}
+#contentBody .Link_Dentsuho li a.Link_blank em:after{padding-left:5px; content:url(https://contact.dentsu.jp/img?id=224&t=9lwd&v=79bf6484); vertical-align:-5%;}
+#contentBody .Link_Dentsuho li a.Link_rss em:after{padding-left:5px; content:url(https://contact.dentsu.jp/img?id=225&t=9lwd&v=3400c0a1); vertical-align:-14%;}
+#contentBody .Link_Dentsuho .bx-wrapper .bx-controls-direction a{background:transparent url(https://contact.dentsu.jp/img?id=278&t=9lwd&v=2d244066) no-repeat;}
+#contentBody .Link_Dentsuho .bx-wrapper .bx-controls-direction a.bx-next{background-image:url(https://contact.dentsu.jp/img?id=279&t=9lwd&v=1393dd27);}
+#contentBody ul.List li{background:transparent url(https://contact.dentsu.jp/img?id=280&t=9lwd&v=f07444d9) no-repeat 0px 0.7em;}
+#contentBody dl.List02 dd{background:transparent url(https://contact.dentsu.jp/img?id=280&t=9lwd&v=f07444d9) no-repeat 5px 0.7em;}
+#contentBody .Navi_Accordion .accordionContent .openClose a{background:transparent url(https://contact.dentsu.jp/img?id=281&t=9lwd&v=b30fae26) no-repeat 0 0;}
+#contentBody .companyWrapper .companyList .accordionContent .openClose a{background-image:url(https://contact.dentsu.jp/img?id=281&t=9lwd&v=b30fae26);}
+#contentBody .irBanner .wrapper .bx-pager.bx-default-pager div a{background:transparent url(https://contact.dentsu.jp/img?id=282&t=9lwd&v=39dd2d12) no-repeat 0 0;}
+#contentBody .irBanner .wrapper .bx-pager.bx-default-pager div a:hover,
+#contentBody .irBanner .wrapper .bx-pager.bx-default-pager div a.active{background:transparent url(https://contact.dentsu.jp/img?id=283&t=9lwd&v=389b8042) no-repeat 0 0;}
+.editArea ul li{background:transparent url(https://contact.dentsu.jp/img?id=280&t=9lwd&v=f07444d9) no-repeat 0px 0.7em;}
+.editArea dl dd{background:transparent url(https://contact.dentsu.jp/img?id=280&t=9lwd&v=f07444d9) no-repeat 5px 0.7em;}
+#contentBody .newsSearchHead dl dt a{background:transparent url(https://contact.dentsu.jp/img?id=281&t=9lwd&v=b30fae26) no-repeat 190px 2px;}
+#contentBody .newsSearchHead dl dt a.open{background:transparent url(https://contact.dentsu.jp/img?id=281&t=9lwd&v=b30fae26) no-repeat 190px -28px;}
+#contentBody .keywordArea .keywordSearch dd input[type="text"].textOn,
+#contentBody .keywordArea .keywordSearch dd input[type="text"]:focus{background:#fff url(https://contact.dentsu.jp/img?id=217&t=9lwd&v=55d61a94) no-repeat right bottom; outline:0;}
+#contentBody .keywordArea .keywordSearch dd input.seachBtn{background:transparent url(https://contact.dentsu.jp/img?id=217&t=9lwd&v=55d61a94) no-repeat -100px -100px;}
+#contentBody .csrTopBanner .wrapper .bx-pager.bx-default-pager div a{background:transparent url(https://contact.dentsu.jp/img?id=282&t=9lwd&v=39dd2d12) no-repeat 0 0;}
+#contentBody .csrTopBanner .wrapper .bx-pager.bx-default-pager div a:hover,
+#contentBody .csrTopBanner .wrapper .bx-pager.bx-default-pager div a.active{background:transparent url(https://contact.dentsu.jp/img?id=283&t=9lwd&v=389b8042) no-repeat 0 0;}
+#contentBody .imgZoomArea ul li a span.zoomIcon{background:transparent url(https://contact.dentsu.jp/img?id=284&t=9lwd&v=0b912170) no-repeat;}
+#contentBody h3.facebook{background:transparent url(https://contact.dentsu.jp/img?id=285&t=9lwd&v=c75a97e4) no-repeat 635px center;}
+#contentBody .irTopInfo{background:#eef1f6 url(https://contact.dentsu.jp/img?id=286&t=9lwd&v=524e4604) no-repeat left bottom;}
+#contentBodySub .financeInfo a{background:#d1f3ec url(https://contact.dentsu.jp/img?id=287&t=9lwd&v=bfc399e8) no-repeat 20px center;}
+#contentBody .globalDiagram{background:transparent url(https://contact.dentsu.jp/img?id=288&t=9lwd&v=59e2cdb7) no-repeat 0 0;}
+#contentBody .globalDiagram .OfficeA a,
+#contentBody .globalDiagram .OfficeB a,
+#contentBody .globalDiagram .OfficeBL a{background:#fff url(https://contact.dentsu.jp/img?id=289&t=9lwd&v=6bd9e9d8) no-repeat right bottom;}
+#contentBody .moreSearch ul li input[type="text"]{background:#fff url(https://contact.dentsu.jp/img?id=217&t=9lwd&v=55d61a94) no-repeat right top;}
+#contentBody .moreSearch ul li input[type="text"].textOn,
+#contentBody .moreSearch ul li input[type="text"]:focus{background:#fff url(https://contact.dentsu.jp/img?id=217&t=9lwd&v=55d61a94) no-repeat right bottom; outline:0;}
+#contentBody .moreSearch ul li input.seachBtn{background:transparent url(https://contact.dentsu.jp/img?id=217&t=9lwd&v=55d61a94) no-repeat -100px -100px;}
+
+.error {
+	color: red;
+}
+
+#e_163, #e_164, #e_161, #e_162, #e_167, #e_168, #e_172, #e_169, #e_170, #e_171, #e_169_re  {
+    width: 500px !important;
+}
+
+#e_165\5Bzip1\5D, #e_165\5Bzip2\5D {
+    width: 80px !important;
+}
+
+.sizeS input {
+    font-size: 100%;
+    padding: 8px 30px 10px;
+}
+
+#e_166 {
+    width: 190px !important;
+}
+
+.List {
+	margin-bottom:30px !important;
+}
+
+
+

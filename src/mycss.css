@@ -1,0 +1,7 @@
+input[type="checkbox"]:checked  {
+	background-image: url(../contents/bg_08.png), -webkit-linear-gradient(top, #00397b 0%, #01afeb 100%);
+	background-image: url(../contents/bg_08.png), linear-gradient(to top, #00397b 0%, #01afeb 100%);
+}	
+.question{
+ width:30px;
+}
