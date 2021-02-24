@@ -70,49 +70,32 @@
 					<li><span class="required">＊</span>印の項目は必ずご記入をお願いいたします。</li>
 				</ul>
 
-					<form action="/m/cr" method="post" autocomplete="off">
+					<form action="contact.php?gui=2" method="post" autocomplete="off">
 
 					<table class="formTable">
 					<tr>
-						<th>名前<span class="required">＊</span></th>
-						<td><input type="text" name="e_163" id="e_163" value="" size="30" maxlength="50" /></td>
+						<th>名前
+            <span class="required">＊</span>
+            <span>{$name_error}</span></th>
+						<td><input type="text" name="name" id="e_163" value="" size="30" maxlength="50" /></td>
 					</tr>
-{$smarty.version}
+
 					<tr>
 						<th>メールアドレス<span class="required">＊</span></th>
-						<td><input type="text" name="e_164" id="e_164" value="" size="30" maxlength="50" /></td>
+						<td><input type="text" name="e_mail" id="e_164" value="" size="30" maxlength="50" /></td>
 					</tr>
-
+    
 					<tr>
-					<th>お聞きしたい内容<span class="required">＊</span></th>
-         
-          {* {$question} *}
-          {* <th><input type=checkbox name="question" value={$question}>{$question}</th> *}
-
-
-      {foreach $question as $v}
-
-   <th><input type="checkbox" name="question" value={$v}>{$v}</th>
-      
-       {/foreach}
-      
-         {* {section name="question" roop=$question}
-         {$smarty.section.test.iteration}:{$question[test]}
-         {/section} *}
-         {* {section loop=$arrFrom name=arrItem}
-{$smarty.section.arrItem.index_next}
-{/section} *}
-        
-          {* {foreach $hobby_key as $question}
-         <th>
-          <input type=checkbox name="question[]" value="question1">{$question1}
+					<th>お聞きしたい内容<span class="required">＊</span>
           </th>
-         {/foreach} *}
-       
-
          
-          {* {$question2} *}
-          {* {$smarty.config.question} *}
+        
+
+          {foreach from=$question item=questions}
+          <td><label><input type="checkbox" name="questions" value={$questions}>{$questions}<label></td>
+          {/foreach}
+      	
+     
 					</tr>
          
 					
@@ -125,94 +108,15 @@
           <tr>
 				
 						<th>カテゴリ<span class="required">＊</span></th>
-				   <th><label><input type="radio" name="category" value="category1">たこ焼き</label></th>
-           <th><label><input type="radio" name="category" value="category2">たこ焼き</label></th>
+				    {foreach from=$category item=categories}
+           <th><label><input type="checkbox" name="question">{$categories}<label></th>
+          {/foreach}
            
 
 					</tr>
 
 
-					<tr>
-						<th>都道府県名<span class="required">＊</span></th>
-						<td>
-							<select name="e_166" id="e_166">	<option value="" selected="selected">お選びください</option>
-	<option value="1">北海道</option>
-	<option value="2">青森県</option>
-	<option value="3">岩手県</option>
-	<option value="4">宮城県</option>
-	<option value="5">秋田県</option>
-	<option value="6">山形県</option>
-	<option value="7">福島県</option>
-	<option value="8">茨城県</option>
-	<option value="9">栃木県</option>
-	<option value="10">群馬県</option>
-	<option value="11">埼玉県</option>
-	<option value="12">千葉県</option>
-	<option value="13">東京都</option>
-	<option value="14">神奈川県</option>
-	<option value="15">新潟県</option>
-	<option value="16">富山県</option>
-	<option value="17">石川県</option>
-	<option value="18">福井県</option>
-	<option value="19">山梨県</option>
-	<option value="20">長野県</option>
-	<option value="21">岐阜県</option>
-	<option value="22">静岡県</option>
-	<option value="23">愛知県</option>
-	<option value="24">三重県</option>
-	<option value="25">滋賀県</option>
-	<option value="26">京都府</option>
-	<option value="27">大阪府</option>
-	<option value="28">兵庫県</option>
-	<option value="29">奈良県</option>
-	<option value="30">和歌山県</option>
-	<option value="31">鳥取県</option>
-	<option value="32">島根県</option>
-	<option value="33">岡山県</option>
-	<option value="34">広島県</option>
-	<option value="35">山口県</option>
-	<option value="36">徳島県</option>
-	<option value="37">香川県</option>
-	<option value="38">愛媛県</option>
-	<option value="39">高知県</option>
-	<option value="40">福岡県</option>
-	<option value="41">佐賀県</option>
-	<option value="42">長崎県</option>
-	<option value="43">熊本県</option>
-	<option value="44">大分県</option>
-	<option value="45">宮崎県</option>
-	<option value="46">鹿児島県</option>
-	<option value="47">沖縄県</option>
-</select>
-							</td>
-					</tr>
-					<tr>
-						<th>市区町村名・番地<span class="required">＊</span></th>
-						<td><input type="text" name="e_167" id="e_167" value="" size="30" maxlength="100" /><p class="BodyText_small margT05 margB00">（例：港区東新橋1-8-1 ）</p></td>
-					</tr>
-					<tr>
-						<th>ビル・建物名</th>
-						<td><input type="text" name="e_168" id="e_168" value="" size="30" maxlength="100" /><p class="BodyText_small margT05 margB00">（例：電通ビル）</p></td>
-					</tr>
-					<tr>
-						<th>電話番号</th>
-						<td><input type="text" name="e_172" id="e_172" value="" size="30" maxlength="16" /></td>
-					</tr>
-					<tr>
-						<th class="vAlignT">E-mailアドレス<span class="required">＊</span></th>
-						<td><input type="text" name="e_169" id="e_169" value="" size="40" maxlength="200" /><p class="BodyText_small margT05 margB00">(確認用)もう一度ご入力ください。</p>
-                        <input type="text" name="e_169_re" id="e_169_re" value="" size="40" maxlength="200" /><p class="BodyText_small margT05 margB00">返信はご記入いただきましたアドレスにお送りしますので、半角で正確にご記入ください。</p></td>
-					</tr>
-					<tr>
-						<th>表題（タイトル）<span class="required">＊</span></th>
-						<td><input type="text" name="e_170" id="e_170" value="" size="30" maxlength="50" /></td>
-					</tr>
-					<tr>
-						<th class="vAlignM">お問い合わせ内容<span class="required">＊</span></th>
-						<td>
-						<textarea name="e_171" rows="10" cols="50" id="e_171"></textarea>
-						</td>
-					</tr>
+	
 					<tr>
 						<th></th>
 						<td>
